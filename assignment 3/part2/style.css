@@ -1,0 +1,91 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+    min-width: 980px;
+    max-width: 1400px;
+    line-height: 1.2;
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+  text-align: center;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
+}
+
+.h1 {
+    font-size: 3em;
+}
+
+.h2 {
+    font-size: 2.2em;
+}
+
+/* Child Selector */
+main section p {
+    font-size: 1.2em;
+}
+
+/* Link Styling: States / Pseudoclasses */
+a:link {
+    color: #a35b5b;
+}
+a:visited {
+    color: #5c3636;
+}
+a:focus {
+    color: #9d7272;
+    text-decoration: none;
+}
+a:hover {
+    color: #d05151;
+    text-decoration: none;
+}
+
+/* Navigation Menu Styling */
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    border: 1px solid #aa6666;
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+    margin: 1em;
+    padding: 1em 4em 1em 4em;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}

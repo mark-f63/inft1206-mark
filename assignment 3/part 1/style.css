@@ -1,0 +1,26 @@
+/* 
+    Box Styles: 1, 2 completed by professor. 3, 4, 5 is student's responsibility.
+    Text Styles: 1, 2, 3 completed by professor. 4, 5, 6, 7 is student's responsibility.
+*/
+
+html {
+  background-color: white;
+}
+
+body {
+  font: 1.2em / 1.5 system-ui;
+  padding: 10px;
+  width: 500px;
+  background-color: #efefef;
+}
+
+h1 {
+    color: darkslategray;
+    border-bottom: 10px dotted purple;
+    font-size: 2rem;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 1.5rem;
+}
